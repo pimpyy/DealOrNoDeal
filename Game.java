@@ -66,8 +66,7 @@ public class Game {
 
         while (gamestatus == true) {
             showCases();
-            if (cases == 25 || cases == 19 || cases == 14 || cases == 10
-                    || cases == 7) {
+            if (cases == 25 || cases == 19 || cases == 14 || cases == 10 || cases == 7) {
                 for (a = b; a > 0; a--) {
                     player.remove(a, briefcases);
                     cases--;
@@ -94,14 +93,11 @@ public class Game {
     public void finishgame() {
         if (cases == 1) {
             System.out.println("\tYou Rejected the Offer of Banker");
-            System.out.printf("\tYour case contains $%.2f and the bankers offer is $%.2f\n",
-                    myAmount, offer);
-            System.out.printf("\tYou've won your case with an amount of: %.2f",
-                    myAmount);
+            System.out.printf("\tYour case contains $%.2f and the bankers offer is $%.2f\n", myAmount, offer);
+            System.out.printf("\tYou've won your case with an amount of: %.2f", myAmount);
         } else {
             System.out.println("\tYou Accepted the offer of Banker");
-            System.out.printf("\tYour case contains $%.2f and the bankers offer is $%.2f\n",
-                    myAmount, offer);
+            System.out.printf("\tYour case contains $%.2f and the bankers offer is $%.2f\n", myAmount, offer);
             System.out.printf("\tYou've won the offer of Banker: $%.2f", offer);
         }
     }
