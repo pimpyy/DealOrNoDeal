@@ -33,7 +33,7 @@ public class Player {
                 System.out.println("\tInvalid Input please Try again\n");
             } else {
                 System.out.println("\tI'm " + briefCases[nChoice].getModel() + ". You just removed case # " + (nChoice+1));
-                System.out.println("\t|" + (nChoice + 1) + "| contains Php" + briefCases[nChoice].getAmount() + "\n");
+                System.out.println("\t|" + (nChoice + 1) + "| contains Php " + briefCases[nChoice].getAmount() + "\n");
                 briefCases[nChoice].remove();
                 return nChoice;
             }

@@ -14,11 +14,11 @@ public class Game {
     private Briefcase briefcases[];
 
     public void casesSetup() {
-        String[] modelNames = {"Michelle", "Obama", "Rosey", "Miney",
-            "Ashley", "Maria", "Ozawa", "Audrey", "Kristen", "Kim",
-            "Kardashian", "Kourtney", "Ann", "Macy", "Tori", "Sam", "Monica",
-            "Jin", "Koi", "jill", "Usher", "Justin Bieber", "Lindsay Lohan",
-            "Hazell", "Buttercup", "Don Amalia", "Kojic!"};
+        String[] modelNames = {"Maja Salvador", "Angel Locsin", "Carla Abellana", "Cristine Reyes",
+            "Maine Mendoza", "Marian Rivera", "Janine Gutierrez", "Kisses Delavin", "Nadine Lustre", "Kristine Hermosa",
+            "Ellen Adarna", "Kim Domingo", "Bea Alonzo", "Jennylyn Mercado", "Iza Calzado", "Pia Wurtzbach", "Solenn Heussaff",
+            "Heart Evangelista", "Bianca Umali", "Janella Salvador", "Arci Munoz", "Kim Chui", "Liza Soberano",
+            "Anne Curtis", "Sarah Geronimo", "Julia Barretto", "Kathryn Bernardo"};
 
         List<Integer> amounts = Arrays.asList(1, 5, 10, 25, 50, 75, 100,
         200, 300, 400, 500, 750, 1000, 5000, 10000, 25000, 50000, 75000,
@@ -46,7 +46,8 @@ public class Game {
 
     public void welcomeMessage() {
         System.out.println("\t~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
-        System.out.println("\t~*               Welcome !                ~*");
+        System.out.println("\t~*               Welcome!                 ~*");
+        System.out.println("\t~*       Kapamilya Deal or No Deal        ~*");
         System.out.println("\t~*~*~*~*~*~*~ Hosted by Group 8 ~*~*~*~*~*~*");
         System.out.println("\t~* Please Select from the Following Cases!~*");
         System.out.println("\t~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
@@ -93,12 +94,12 @@ public class Game {
     public void finishgame() {
         if (cases == 1) {
             System.out.println("\tYou Rejected the Offer of Banker");
-            System.out.printf("\tYour case contains $%.2f and the bankers offer is $%.2f\n", myAmount, offer);
+            System.out.printf("\tYour case contains Php %.2f and the bankers offer is Php %.2f\n", myAmount, offer);
             System.out.printf("\tYou've won your case with an amount of: %.2f", myAmount);
         } else {
             System.out.println("\tYou Accepted the offer of Banker");
-            System.out.printf("\tYour case contains $%.2f and the bankers offer is $%.2f\n", myAmount, offer);
-            System.out.printf("\tYou've won the offer of Banker: $%.2f", offer);
+            System.out.printf("\tYour case contains Php %.2f and the bankers offer is Php %.2f\n", myAmount, offer);
+            System.out.printf("\tYou've won the offer of Banker: Php %.2f", offer);
         }
     }
 }

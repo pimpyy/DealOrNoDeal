@@ -19,7 +19,7 @@ public class Banker {
 
     public double getOffer(int turn, Briefcase[] cases, double myAmount) {
         setOffer(turn, cases, myAmount);
-        System.out.printf("\tThe Bankers Offer is: %.2f \n\n", amount);
+        System.out.printf("\tThe Bankers Offer is: Php %.2f \n\n", amount);
         return amount;
     }
 }
