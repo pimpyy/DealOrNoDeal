@@ -48,7 +48,8 @@ public class Game {
         System.out.println("\t~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
         System.out.println("\t~*               Welcome!                 ~*");
         System.out.println("\t~*       Kapamilya Deal or No Deal        ~*");
-        System.out.println("\t~*~*~*~*~*~*~ Hosted by Group 8 ~*~*~*~*~*~*");
+        System.out.println("\t~*            Hosted by Group 8           ~*");
+        System.out.println("\t~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
         System.out.println("\t~* Please Select from the Following Cases!~*");
         System.out.println("\t~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
     }
