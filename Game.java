@@ -46,8 +46,8 @@ public class Game {
 
     public void welcomeMessage() {
         System.out.println("\t~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
-        System.out.println("\t~*               Welcome !          ~*");
-        System.out.println("\t~*~*~*~*~* Hosted by Kyel David ~*~*~*~*~*~*");
+        System.out.println("\t~*               Welcome !                ~*");
+        System.out.println("\t~*~*~*~*~*~*~ Hosted by Group 8 ~*~*~*~*~*~*");
         System.out.println("\t~* Please Select from the Following Cases!~*");
         System.out.println("\t~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
     }
